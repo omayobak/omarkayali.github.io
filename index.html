@@ -2,28 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Omar Kayali</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<!-- navigation -->
   <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
-    <a href="resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
+    <a href="#hero">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#resume">Resume</a>
+    <a href="#interests">Interests</a>
+    <a href="#contact">Contact</a>
   </nav>
-  <header class="hero">
+  <!-- hero/intro -->
+  <header id="hero">
     <h1>Omar Kayali</h1>
-    <p>Data Science | Mathematics | Statistics</p>
+    <p>Data Science Student, University of Minnesota<br>Systems Programming | Data Analysis</p>
+    <p>I am a junior building programs in C, Python, R, Java, and SQL with a focus on memory safety, probability, and statistical analysis.</p>
   </header>
-  <section>
+  <!-- projects, copy and paste card layout as many times as needed -->
+  <section id="projects">
     <h2>Featured Projects</h2>
-    <div class="Project">
-      <h3>Project Title</h3>
-      <p>quick description</p>
-      <a href="link goes here">Github Repo</a>
-    </div>
+    <!-- project 1 -->
+    <a href="github link goes here" class="project-card" target="_blank">
+      <div class="project">
+        <h3>Title goes here</h3>
+        <p>description goes here</p>
+      </div>
+    </a>
+  </section>
+  <!-- skills + technical interests -->
+  <section id="skills">
+    <h2>Skills & Technical Interests</h2>
+    <ul>
+      <li>Low-level debugging (GDB, Valgrind)</li>
+      <li>C, Python, R, Java, SQL</li>
+      <li>Data analysis and visualization</li>
+      <li>Probability & statistical modeling</li>
+    </ul>
+  </section>
+  <!-- resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="assets/images/resume.pdf">Download PDF</a>
+  </section>
+  <!-- personal interests -->
+  <section id="interests">
+    <h2>Personal Interests</h2>
+    <ul>
+      <li>Systems focused video games (roguelikes, Soulsborne): exploring iteration, optimization, and strategy</li>
+      <li>Sports: analyzing various metrics, evaluating player performances, and studying team strategies</li>
+    </ul>
+  </section>
+  <!-- contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li>Email: <a href="mailto:omkayali@gmail.com">omkayali@gmail.com</a></li>
+      <li>Github: <a href="https://github.com/omayobak">github.com.omayobak</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/omar-kayali-5b830b383/">linkedin.com/in/omar-kayali</a></li>
+    </ul>
   </section>
 </body>
 </html>
