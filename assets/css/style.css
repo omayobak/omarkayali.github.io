@@ -137,6 +137,43 @@ section:nth-of-type(odd) {
   background-color: #005bb5;
 }
 
+/* contact buttons */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.contact-btn {
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-btn.email {
+  background: #4a90e2;
+  color: white;
+}
+
+.contact-btn.github {
+  background: #24292e
+  color: white;
+}
+
+.contact-btn.linkedin {
+  background: #0077b5;
+  color: white;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
 /* contact info in footer */
 footer, section#contact {
   border-top: 2px solid #ddd;
