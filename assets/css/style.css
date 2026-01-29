@@ -114,6 +114,13 @@ section:nth-of-type(odd) {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transform: translateY(-3px);
 }
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: block;
+}
 
 /* general button */
 .btn {
